@@ -2,7 +2,7 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <div className="text-center pt-10"> 
+    <div className="text-center mt-10 p-4"> 
         <h1 className='text-5xl text-black-600 font-bold'> Vote Without <span className='text-blue-600'>Rigging</span></h1>
         <p className='pt-5 text-gray-600 text-xl font-medium'> This online voting system offers the highest level of transparency, control, security <br></br>and efficiency of election processes using the <strong>Blockchain Technology</strong> </p>
         <div className='flex justify-center pt-10'>
@@ -12,6 +12,7 @@ const Hero = () => {
         <div >
         <button type="button" class="inline-block px-6 py-2 border-2 border-blue-600 text-blue-600 font-medium text-xs leading-tight uppercase rounded hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out">Join Poll</button>
         </div>
+        
         
         </div>
     </div>
