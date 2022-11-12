@@ -27,7 +27,7 @@ const Vote = () => {
           <div class="flex flex-col md:flex-row md:max-w-xl rounded-lg bg-white shadow-lg">
             <div className="flex content-center items-center m-auto">
               <img
-                class="w-full h-40 md:h-40 object-cover md:w-48 rounded-lg md:rounded-none md:rounded-lg "
+                class="w-full h-40 md:h-40 object-cover md:w-48 rounded-lgs md:rounded-none md:rounded-lg "
                 src={Contestant}
                 alt=""
               />
