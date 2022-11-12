@@ -14,7 +14,7 @@ const Joinpollform = () => {
         ${boxModal}`}
     >
       <div class="block p-6 rounded-lg shadow-lg bg-white max-w-md">
-        <div>
+        <div className='flex justify-center p-10'>
           <button
             type="button"
             onClick={onClose}
@@ -41,7 +41,7 @@ const Joinpollform = () => {
     transition
     ease-in-out
     m-0
-    focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+    focus:text-gray-700 focus:bg-white focus:border-green-600 focus:outline-none"
               type="file"
               id="formFile"
             />
@@ -64,7 +64,7 @@ const Joinpollform = () => {
           transition
           ease-in-out
           m-0
-          focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+          focus:text-gray-700 focus:bg-white focus:border-green-600 focus:outline-none"
                 id="exampleInput123"
                 aria-describedby="emailHelp123"
                 placeholder="First name"
@@ -87,7 +87,7 @@ const Joinpollform = () => {
           transition
           ease-in-out
           m-0
-          focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+          focus:text-gray-700 focus:bg-white focus:border-green-600 focus:outline-none"
                 id="exampleInput124"
                 aria-describedby="emailHelp124"
                 placeholder="Last name"
@@ -110,7 +110,7 @@ const Joinpollform = () => {
         transition
         ease-in-out
         m-0
-        focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+        focus:text-gray-700 focus:bg-white focus:border-green-600 focus:outline-none"
               id="exampleInput125"
               placeholder="Email address"
             />
